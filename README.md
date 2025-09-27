@@ -1,105 +1,74 @@
-# 🚚 Tik-Tik - Smart Timer Delivery System  
-*Balancing Customer Convenience & Seller Costs in Last-Mile Logistics*  
+# 📑 Case study
+
+## 🚚 Amazon Last-Mile Delivery Proposal: Tik-Tik Smart Timer System  
+*Enhancing Customer Experience & Reducing Operational Costs in Last-Mile Logistics*  
 
 ---
 
-## 📌 Context  
-Last-mile delivery is the **costliest and most critical** step in e-commerce.  
+### 📌 Proposal Overview  
+Last-mile delivery is the **most critical and costly** step in Amazon’s logistics chain.  
 
-- For **customers**, waiting for deliveries (especially **paid products**) feels like being “hostage at home.”  
-- For **sellers**, failed deliveries (especially **furniture**) mean **extra petrol, traffic delays, and wasted manpower**.  
-- For **delivery partners**, reattempts add **stress and inefficiency**.  
+- **Customers** face frustration waiting for deliveries, especially **high-value or bulky items**, often feeling “hostage at home.”  
+- **Amazon and sellers** incur **additional fuel, labor, and time costs** due to failed deliveries.  
+- **Delivery partners** experience stress and inefficiencies when deliveries fail or must be rescheduled.  
 
-This case study proposes a **Smart Timer Delivery System** to minimize failures and improve experience for all parties.
-
----
-
-## 😫 Pain Points  
-
-### Customer  
-- ❌ Even 2 mins outside = missed delivery.  
-- ❌ Broad delivery slots (2–6 PM) → uncertainty.  
-- ❌ Paid products (furniture, electronics) = higher anxiety.  
-
-### Seller / Platform (Amazon)  
-- 💸 High rescheduling costs (fuel, traffic, labor).  
-- 🕒 Wasted truck slots for large-item deliveries.  
-- 📉 Customer dissatisfaction → lower trust.  
-
-### Delivery Partner  
-- 😓 Stress of carrying furniture only to return undelivered.  
-- 🚦 Route delays if customer is unavailable.  
+We propose **Tik-Tik: Smart Timer Delivery System** – an interactive, confirmation-based system to **reduce failed deliveries, improve customer experience, and optimize last-mile operations**.  
 
 ---
 
-## 💡 Proposed Solution: Smart Timer Delivery System  
+### 😫 Key Challenges  
+
+### Customer Pain Points  
+- ❌ Missing delivery due to short absences (even 2 mins outside).  
+- ❌ Broad delivery windows (e.g., 2–6 PM) → uncertainty.  
+- ❌ High anxiety for **paid/furniture/electronics** deliveries.  
+
+### Operational & Seller Challenges  
+- 💸 High rescheduling costs (fuel, labor, traffic).  
+- 🕒 Wasted truck/trip slots for large-item deliveries.  
+- 📉 Reduced customer trust due to repeated failed deliveries.  
+
+### Delivery Partner Challenges  
+- 😓 Stress of returning undelivered packages.  
+- 🚦 Route delays and inefficiencies if customers are unavailable.  
+
+---
+
+## 💡 Proposed Solution: Tik-Tik Smart Timer System  
 
 ### 🏠 1. Interactive Confirmation & Timer  
-- **Before delivery timer starts:**  
-  - Customer receives a **prompt to confirm availability**.  
+- **Pre-Delivery:**  
+  - Customers receive a **prompt to confirm availability**.  
   - Option to **reschedule delivery** if unavailable.  
 
-- **After confirmation:**  
+- **Post-Confirmation:**  
   - Timer starts (**30-min countdown for small items, 2-hour slot for furniture**).  
-  - Rider progress is displayed with live simulation.  
-  - Clear ETA reduces stress and uncertainty.  
+  - Rider progress displayed with **live simulation**.  
+  - Clear ETA reduces customer stress and uncertainty.  
 
-- **Reschedule flow:**  
-  - Customer can select a **preferred time slot** (e.g., After 2 PM or After 4 PM).  
-  - App confirms reschedule and updates status.  
-
----
-
-
-## 🎨 Visual Snapshot  
-- Timer visible **after confirmation**  
-- Rider-on-the-way simulation + progress bar  
-- **Confirm Availability** & **Reschedule** buttons  
-- Professional, clean, classic app interface  
-
----
-
-## 🛠️ UX Flow Snapshot  
-
-**Furniture Buyer**  
-1. Prompt: Confirm availability or reschedule  
-2. If confirmed → Timer starts (2-hr slot) + Rider ETA  
-3. Delivery → success OR fallback with rescheduling fee  
-
-**Small-Item Buyer**  
-1. Prompt: Confirm availability or reschedule  
-2. If confirmed → Timer starts (30-min countdown) + Rider progress  
-3. Delivery → success or reschedule if needed  
-
----
-
-## 📊 Amazon Last-Mile Delivery Insights (Data-Driven)
-
-- **Cost per Failed Delivery**: ~$17.78 per failed attempt.  
-- **Failure Rate**: ~5% of all last-mile deliveries fail due to customer unavailability.  
-- **Impact**: Redelivery attempts double last-mile costs, increase fuel consumption, and waste delivery partner effort.  
-
-> Implementing a **pre-delivery confirmation and timer-based system** can reduce failed deliveries by up to **30-40%**, saving millions annually for Amazon, while improving customer trust and delivery partner efficiency.  
+- **Reschedule Flow:**  
+  - Customer selects **preferred time slot** (e.g., after 2 PM or 4 PM).  
+  - App confirms reschedule and updates delivery status.  
 
 ---
 
 ### ⏱️ 2. Live Countdown & Rider Tracking  
-- Timer visible only after **confirmation**.  
+- Timer visible **only after confirmation**.  
 - Progress bar and rider icon move dynamically along delivery route simulation.  
 
 ---
 
 ### 🔔 3. Smart Notifications  
-- **Before timer starts:** “Confirm your availability for delivery.”  
-- **After confirmation:** Live countdown + rider on the way.  
-- **Reschedule:** Prompt for preferred time slot.  
+- **Pre-timer:** “Confirm your availability for delivery.”  
+- **Post-confirmation:** Live countdown + rider on the way.  
+- **Reschedule:** Option to select preferred time slot.  
 
 ---
 
-### 📦 4. Fallback for Furniture  
+### 📦 4. Furniture Delivery Fallback  
 - If customer not home despite confirmation:  
-  - Item goes to **local hub / warehouse**.  
-  - Customer pays a **rescheduling fee** (shown upfront).  
+  - Item sent to **local hub/warehouse**.  
+  - Customer pays **rescheduling fee** upfront.  
 
 ---
 
@@ -112,17 +81,17 @@ This case study proposes a **Smart Timer Delivery System** to minimize failures 
 
 ---
 
-## 🚀 Expected Outcomes  
+## 📊 Amazon Last-Mile Delivery Insights (Data-Driven)  
 
-| Stakeholder        | Benefits |
-|--------------------|----------|
-| **Customer**       | Control over delivery, less stress, clear ETA |
-| **Amazon / Seller**| Fewer failed deliveries → save ~$17.78 per delivery, millions annually |
-| **Delivery Partner** | Smooth routes, reduced stress, higher efficiency |
+- **Cost per Failed Delivery**: ~$17.78 per attempt.  
+- **Failure Rate**: ~5% due to customer unavailability.  
+- **Impact**: Redelivery doubles last-mile costs, increases fuel consumption, and wastes delivery partner effort.  
+
+> **Implementing pre-delivery confirmation and timer-based tracking can reduce failed deliveries by 30–40%, saving millions annually while improving customer satisfaction and delivery efficiency.**  
 
 ---
 
-## 💰 Projected Annual Savings (Profit Assumption)
+## 💰 Projected Annual Savings  
 
 **Assumptions:**  
 - Average cost per failed delivery: $17.78  
@@ -136,20 +105,52 @@ This case study proposes a **Smart Timer Delivery System** to minimize failures 
 3. Reduced failed deliveries = 50,000,000 × 30% = 15,000,000  
 4. **Potential annual savings** = 15,000,000 × $17.78 ≈ **$266.7 million**  
 
-> By implementing the Smart Timer Delivery System, Amazon could **save over $266 million annually**, reduce operational inefficiencies, and improve customer and delivery partner satisfaction.
+> **Impact:** Amazon could save over **$266 million annually**, reduce operational inefficiencies, and improve both customer and delivery partner satisfaction.  
 
 ---
 
-## 🏆 Why This Matters for UX/Product Design  
+## 🛠️ UX Flow Snapshot  
 
-- Demonstrates **end-to-end thinking**:  
-  - User empathy (hostage waiting problem).  
-  - Data-backed cost savings for the platform (Amazon).  
-  - Delivery partner efficiency and stress reduction.  
+**Furniture Buyer:**  
+1. Prompt: Confirm availability or reschedule  
+2. If confirmed → Timer starts (2-hr slot) + Rider ETA  
+3. Delivery → success or fallback with rescheduling fee  
 
-- Shows how **small UX interventions** (confirmation & timer) can **drive millions in operational savings** and improve customer satisfaction.  
+**Small-Item Buyer:**  
+1. Prompt: Confirm availability or reschedule  
+2. If confirmed → Timer starts (30-min countdown) + Rider progress  
+3. Delivery → success or reschedule if needed  
+
+---
+
+## 🚀 Expected Outcomes  
+
+| Stakeholder        | Benefits |
+|--------------------|----------|
+| **Customer**       | Control over delivery, less stress, clear ETA |
+| **Amazon / Seller**| Reduced failed deliveries → millions saved annually |
+| **Delivery Partner** | Smoother routes, reduced stress, higher efficiency |
+
+---
+
+## 🎨 Visual Snapshot  
+- Timer visible **after confirmation**  
+- Rider-on-the-way simulation + progress bar  
+- **Confirm Availability** & **Reschedule** buttons  
+- Professional, clean, classic app interface  
+
+---
+
+## 🏆 Why This Proposal Matters  
+
+- Demonstrates **end-to-end UX thinking**:  
+  - Solves “hostage waiting” problem for customers.  
+  - Data-backed cost savings for Amazon’s operations.  
+  - Improves delivery partner efficiency and reduces stress.  
+
+- Highlights how **small UX/product enhancements** can **drive millions in operational savings** and elevate overall delivery experience.  
 
 ---
 
 ## 🔑 Takeaway
-- **Talk in seconds, win in millions.**
+- **Intimate in seconds, Save in millions.**
