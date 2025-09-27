@@ -4,8 +4,6 @@
 
 ---
 
-
-
 ### 🚚 Amazon Last-Mile Delivery Proposal 
 
 
@@ -35,6 +33,16 @@ We propose **Tik-Tik: Smart Timer Delivery System** – an interactive, confirma
 ### Delivery Partner Challenges  
 - 😓 Stress of returning undelivered packages.  
 - 🚦 Route delays and inefficiencies if customers are unavailable.  
+
+---
+
+## 📊 Amazon Last-Mile Delivery Insights (Data-Driven)  
+
+- **Cost per Failed Delivery**: ~$17.78 per attempt.  
+- **Failure Rate**: ~5% due to customer unavailability.  
+- **Impact**: Redelivery doubles last-mile costs, increases fuel consumption, and wastes delivery partner effort.  
+
+> **Implementing pre-delivery confirmation and timer-based tracking can reduce failed deliveries by 30–40%, saving millions annually while improving customer satisfaction and delivery efficiency.**  
 
 ---
 
@@ -85,13 +93,9 @@ We propose **Tik-Tik: Smart Timer Delivery System** – an interactive, confirma
 
 ---
 
-## 📊 Amazon Last-Mile Delivery Insights (Data-Driven)  
+## Sample intrative Demo: 
 
-- **Cost per Failed Delivery**: ~$17.78 per attempt.  
-- **Failure Rate**: ~5% due to customer unavailability.  
-- **Impact**: Redelivery doubles last-mile costs, increases fuel consumption, and wastes delivery partner effort.  
-
-> **Implementing pre-delivery confirmation and timer-based tracking can reduce failed deliveries by 30–40%, saving millions annually while improving customer satisfaction and delivery efficiency.**  
+[Tik-Tik_-_Smart_Delivery](https://raguram-n.github.io/Tik-Tik_-_Smart_Delivery/)
 
 ---
 
