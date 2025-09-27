@@ -4,166 +4,169 @@
 <meta charset="UTF-8">
 <title>Smart Timer Delivery App</title>
 <style>
-body {
-font-family: Arial, sans-serif;
-background: #f8f9fa;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-margin: 0;
-}
-.phone {
-width: 360px;
-height: 680px;
-background: #fff;
-border-radius: 20px;
-box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-display: flex;
-flex-direction: column;
-overflow: hidden;
-}
-.header {
-background: #2c3e50;
-color: #fff;
-padding: 16px;
-text-align: center;
-font-size: 1.2rem;
-font-weight: bold;
-}
-.order-card {
-flex: 1;
-padding: 16px;
-overflow-y: auto;
-}
-.order {
-display: flex;
-background: #ecf0f1;
-padding: 12px;
-border-radius: 10px;
-margin-bottom: 16px;
-align-items: center;
-}
-.order img {
-width: 70px;
-height: 70px;
-border-radius: 8px;
-object-fit: cover;
-margin-right: 12px;
-}
-.order-details h4 {
-margin: 0 0 4px 0;
-font-size: 1rem;
-color: #2c3e50;
-}
-.order-details p {
-margin: 2px 0;
-font-size: 0.9rem;
-color: #7f8c8d;
-}
-.timer {
-font-size: 2rem;
-color: #2c3e50;
-font-weight: bold;
-text-align: center;
-margin: 16px 0;
-}
-.progress-bar, .map-bar {
-width: 90%;
-height: 8px;
-background: #dcdcdc;
-border-radius: 4px;
-margin: 12px auto;
-position: relative;
-}
-.progress, .rider-progress {
-height: 100%;
-width: 0%;
-transition: width 1s linear;
-}
-.progress {
-background: #3498db;
-}
-.rider-progress {
-background: #27ae60;
-position: relative;
-}
-.rider-icon {
-position: absolute;
-top: -10px;
-left: 0;
-width: 20px;
-height: 20px;
-background: url('https://cdn-icons-png.flaticon.com/512/743/743007.png') no-repeat center center;
-background-size: contain;
-transition: left 1s linear;
-}
-.buttons {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin: 16px 0;
-}
-.btn {
-width: 80%;
-margin: 6px 0;
-padding: 12px;
-border: none;
-border-radius: 6px;
-font-size: 1rem;
-font-weight: bold;
-cursor: pointer;
-}
-.btn.confirm { background: #27ae60; color: white; }
-.btn.reschedule { background: #c0392b; color: white; }
-.btn:hover { opacity: 0.9; }
-.status {
-text-align: center;
-font-size: 1rem;
-font-weight: bold;
-color: #2c3e50;
-margin-top: 8px;
-}
-.footer {
-background: #f1f1f1;
-padding: 12px;
-text-align: center;
-font-size: 0.85rem;
-color: #7f8c8d;
-}
+  body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .phone {
+    width: 360px;
+    height: 700px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .order-card {
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto;
+  }
+  .order {
+    display: flex;
+    background: #ecf0f1;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    align-items: center;
+  }
+  .order img {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 12px;
+  }
+  .order-details h4 {
+    margin: 0 0 4px 0;
+    font-size: 1rem;
+    color: #2c3e50;
+  }
+  .order-details p {
+    margin: 2px 0;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+  }
+  .timer {
+    font-size: 2rem;
+    color: #2c3e50;
+    font-weight: bold;
+    text-align: center;
+    margin: 16px 0;
+  }
+  .progress-bar, .map-bar {
+    width: 90%;
+    height: 8px;
+    background: #dcdcdc;
+    border-radius: 4px;
+    margin: 12px auto;
+    position: relative;
+  }
+  .progress, .rider-progress {
+    height: 100%;
+    width: 0%;
+    transition: width 1s linear;
+  }
+  .progress {
+    background: #3498db;
+  }
+  .rider-progress {
+    background: #27ae60;
+    position: relative;
+  }
+  .rider-icon {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: url('https://cdn-icons-png.flaticon.com/512/743/743007.png') no-repeat center center;
+    background-size: contain;
+    transition: left 1s linear;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px 0;
+  }
+  .btn {
+    width: 80%;
+    margin: 6px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .btn.confirm { background: #27ae60; color: white; }
+  .btn.reschedule { background: #c0392b; color: white; }
+  .btn.slot { background: #3498db; color: white; margin: 6px 0; }
+  .btn:hover { opacity: 0.9; }
+  .status {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 8px;
+  }
+  .footer {
+    background: #f1f1f1;
+    padding: 12px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+  }
 </style>
 </head>
 <body>
 <div class="phone">
-<div class="header">Your Order</div>
-<div class="order-card">
-<div class="order">
-<img src="https://via.placeholder.com/70" alt="Product">
-<div class="order-details">
-<h4>Wooden Chair (Furniture)</h4>
-<p>Paid • ₹3,499</p>
-<p>Arriving Today</p>
-</div>
-</div>
+  <div class="header">Your Order</div>
+  <div class="order-card">
+    <div class="order">
+      <img src="https://via.placeholder.com/70" alt="Product">
+      <div class="order-details">
+        <h4>Wooden Chair (Furniture)</h4>
+        <p>Paid • ₹3,499</p>
+        <p>Arriving Today</p>
+      </div>
+    </div>
 
-<div class="status" id="status">Please confirm your availability for delivery.</div>
+    <div class="status" id="status">Please confirm your availability for delivery.</div>
 
-<div class="buttons" id="action-buttons">
-<button class="btn confirm" onclick="confirmDelivery()">Confirm Availability</button>
-<button class="btn reschedule" onclick="rescheduleDelivery()">Reschedule</button>
-</div>
+    <div class="buttons" id="action-buttons">
+      <button class="btn confirm" onclick="confirmDelivery()">Confirm Availability</button>
+      <button class="btn reschedule" onclick="showSlots()">Reschedule</button>
+    </div>
 
-<div class="timer" id="timer" style="display:none;">30:00</div>
-<div class="progress-bar"><div class="progress" id="progress"></div></div>
+    <div class="buttons" id="slot-buttons" style="display:none;"></div>
 
-<p style="text-align:center; margin:8px 0; color:#7f8c8d;">Rider on the way</p>
-<div class="map-bar">
-<div class="rider-progress" id="rider-progress">
-<div class="rider-icon" id="rider-icon"></div>
-</div>
-</div>
-</div>
-<div class="footer">Delivery partner is 1.5 km away</div>
+    <div class="timer" id="timer" style="display:none;">30:00</div>
+    <div class="progress-bar"><div class="progress" id="progress"></div></div>
+
+    <p style="text-align:center; margin:8px 0; color:#7f8c8d;">Rider on the way</p>
+    <div class="map-bar">
+      <div class="rider-progress" id="rider-progress">
+        <div class="rider-icon" id="rider-icon"></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">Delivery partner is 1.5 km away</div>
 </div>
 
 <script>
@@ -174,50 +177,67 @@ const progressEl = document.getElementById('progress');
 const riderEl = document.getElementById('rider-icon');
 const statusEl = document.getElementById('status');
 const buttonsEl = document.getElementById('action-buttons');
+const slotButtonsEl = document.getElementById('slot-buttons');
 
+// Timer functions
 function startTimer() {
-timerEl.style.display = "block";
-interval = setInterval(() => {
-countdown--;
-updateDisplay();
-updateProgress();
-updateRider();
+  timerEl.style.display = "block";
+  interval = setInterval(() => {
+    countdown--;
+    updateDisplay();
+    updateProgress();
+    updateRider();
 
-if (countdown <= 0) {
-clearInterval(interval);
-statusEl.innerText = "❌ Delivery Failed - You were unavailable";
-}
-}, 1000);
+    if (countdown <= 0) {
+      clearInterval(interval);
+      statusEl.innerText = "❌ Delivery Failed - You were unavailable";
+    }
+  }, 1000);
 }
 
 function updateDisplay() {
-let mins = Math.floor(countdown / 60);
-let secs = countdown % 60;
-timerEl.innerText = `${String(mins).padStart(2,'0')}:${String(secs).padStart(2,'0')}`;
+  let mins = Math.floor(countdown / 60);
+  let secs = countdown % 60;
+  timerEl.innerText = `${String(mins).padStart(2,'0')}:${String(secs).padStart(2,'0')}`;
 }
 
 function updateProgress() {
-let percent = ((1800 - countdown) / 1800) * 100;
-progressEl.style.width = percent + "%";
+  let percent = ((1800 - countdown) / 1800) * 100;
+  progressEl.style.width = percent + "%";
 }
 
 function updateRider() {
-let percent = ((1800 - countdown) / 1800) * 100;
-riderEl.style.left = `calc(${percent}% - 10px)`;
+  let percent = ((1800 - countdown) / 1800) * 100;
+  riderEl.style.left = `calc(${percent}% - 10px)`;
 }
 
+// Confirm delivery
 function confirmDelivery() {
-statusEl.innerText = "✅ Availability confirmed. Timer started.";
-buttonsEl.style.display = "none";
-startTimer();
+  statusEl.innerText = "✅ Availability confirmed. Timer started.";
+  buttonsEl.style.display = "none";
+  startTimer();
 }
 
-function rescheduleDelivery() {
-let preferred = prompt("Please select your preferred time slot:\n1. After 2 PM\n2. After 4 PM");
-if(preferred) {
-statusEl.innerText = `🔄 Delivery rescheduled to ${preferred === "1" ? "After 2 PM" : "After 4 PM"}.`;
-buttonsEl.style.display = "none";
+// Show reschedule slots
+function showSlots() {
+  const slots = ["2-4 PM", "4-6 PM", "6-8 PM", "Tomorrow"];
+  buttonsEl.style.display = "none";
+  slotButtonsEl.style.display = "flex";
+  slotButtonsEl.innerHTML = ""; // clear previous
+
+  slots.forEach(slot => {
+    const btn = document.createElement("button");
+    btn.className = "btn slot";
+    btn.innerText = slot;
+    btn.onclick = () => selectSlot(slot);
+    slotButtonsEl.appendChild(btn);
+  });
 }
+
+// Slot selection
+function selectSlot(slot) {
+  statusEl.innerText = `🔄 Delivery rescheduled to ${slot}.`;
+  slotButtonsEl.style.display = "none";
 }
 </script>
 </body>
