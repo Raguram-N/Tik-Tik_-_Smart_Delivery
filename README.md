@@ -93,7 +93,9 @@ We propose **Tik-Tik: Smart Timer Delivery System** – an **interactive, confir
 
 ## Sample intractive Demo: 
 
-[Tik-Tik - Smart Delivery](https://raguram-n.github.io/Tik-Tik_-_Smart_Delivery/)
+ - **Prototype -** [Tik-Tik - Smart Delivery ](https://raguram-n.github.io/Tik-Tik_-_Smart_Delivery/) 
+
+ - **Demo video** [Link](https://github.com/Raguram-N/Tik-Tik_-_Smart_Delivery/blob/main/Demo%20video.mp4)
 
 ---
 
