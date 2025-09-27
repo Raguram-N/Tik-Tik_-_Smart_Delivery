@@ -1,11 +1,15 @@
 # 📑 Case study
-
-## 🚚 Amazon Last-Mile Delivery Proposal: Tik-Tik Smart Timer System  
+## ⏱️ Tik-Tik - Smart Delivery
 *Enhancing Customer Experience & Reducing Operational Costs in Last-Mile Logistics*  
 
 ---
 
-### 📌 Proposal Overview  
+
+
+### 🚚 Amazon Last-Mile Delivery Proposal 
+
+
+### Proposal Overview  
 Last-mile delivery is the **most critical and costly** step in Amazon’s logistics chain.  
 
 - **Customers** face frustration waiting for deliveries, especially **high-value or bulky items**, often feeling “hostage at home.”  
