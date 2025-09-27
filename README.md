@@ -1,4 +1,5 @@
-# 📑 Case Study: Tik-Tik - Smart Timer Delivery System  
+# 📑 Case Study: 
+## ⏱️ Tik-Tik - Smart Timer Delivery System  
 *Enhancing Customer Experience & Reducing Operational Costs in Amazon Last-Mile Logistics*  
 
 ---
