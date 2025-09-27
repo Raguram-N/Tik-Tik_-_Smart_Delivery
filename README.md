@@ -1,27 +1,23 @@
-# 📑 Case study
-## ⏱️ Tik-Tik - Smart Delivery
-*Enhancing Customer Experience & Reducing Operational Costs in Last-Mile Logistics*  
+# 📑 Case Study: Tik-Tik - Smart Timer Delivery System  
+*Enhancing Customer Experience & Reducing Operational Costs in Amazon Last-Mile Logistics*  
 
 ---
 
-### 🚚 Amazon Last-Mile Delivery Proposal 
-
-
-### Proposal Overview  
+## 🚚 Proposal Overview  
 Last-mile delivery is the **most critical and costly** step in Amazon’s logistics chain.  
 
 - **Customers** face frustration waiting for deliveries, especially **high-value or bulky items**, often feeling “hostage at home.”  
 - **Amazon and sellers** incur **additional fuel, labor, and time costs** due to failed deliveries.  
 - **Delivery partners** experience stress and inefficiencies when deliveries fail or must be rescheduled.  
 
-We propose **Tik-Tik: Smart Timer Delivery System** – an interactive, confirmation-based system to **reduce failed deliveries, improve customer experience, and optimize last-mile operations**.  
+We propose **Tik-Tik: Smart Timer Delivery System** – an **interactive, confirmation-based solution** to reduce failed deliveries, improve customer experience, and optimize last-mile operations.  
 
 ---
 
-### 😫 Key Challenges  
+## 😫 Key Challenges  
 
 ### Customer Pain Points  
-- ❌ Missing delivery due to short absences (even 2 mins outside).  
+- ❌ Missed delivery due to short absences (even 2 mins outside).  
 - ❌ Broad delivery windows (e.g., 2–6 PM) → uncertainty.  
 - ❌ High anxiety for **paid/furniture/electronics** deliveries.  
 
@@ -38,29 +34,30 @@ We propose **Tik-Tik: Smart Timer Delivery System** – an interactive, confirma
 
 ## 📊 Amazon Last-Mile Delivery Insights (Data-Driven)  
 
-- **Cost per Failed Delivery**: ~$17.78 per attempt.  
-- **Failure Rate**: ~5% due to customer unavailability.  
-- **Impact**: Redelivery doubles last-mile costs, increases fuel consumption, and wastes delivery partner effort.  
+- **Cost per Failed Delivery**: ~$17.78 per attempt  
+- **Failure Rate**: ~5% due to customer unavailability  
+- **Impact**: Redelivery doubles last-mile costs, increases fuel consumption, and wastes delivery partner effort  
 
-> **Implementing pre-delivery confirmation and timer-based tracking can reduce failed deliveries by 30–40%, saving millions annually while improving customer satisfaction and delivery efficiency.**  
+> **Pre-delivery confirmation with timer-based tracking can reduce failed deliveries by 30–40%, saving millions annually while improving customer satisfaction and delivery efficiency.**  
 
 ---
 
 ## 💡 Proposed Solution: Tik-Tik Smart Timer System  
 
 ### 🏠 1. Interactive Confirmation & Timer  
-- **Pre-Delivery:**  
-  - Customers receive a **prompt to confirm availability**.  
-  - Option to **reschedule delivery** if unavailable.  
 
-- **Post-Confirmation:**  
-  - Timer starts (**30-min countdown for small items, 2-hour slot for furniture**).  
-  - Rider progress displayed with **live simulation**.  
-  - Clear ETA reduces customer stress and uncertainty.  
+**Pre-Delivery:**  
+- Customer receives a **prompt to confirm availability**.  
+- Option to **reschedule delivery** if unavailable.  
 
-- **Reschedule Flow:**  
-  - Customer selects **preferred time slot** (e.g., after 2 PM or 4 PM).  
-  - App confirms reschedule and updates delivery status.  
+**Post-Confirmation:**  
+- Timer starts (**30-min countdown for small items, 2-hour slot for furniture**).  
+- Rider progress displayed with **live simulation**.  
+- Clear ETA reduces stress and uncertainty.  
+
+**Reschedule Flow:**  
+- Customer selects **preferred time slot** (e.g., after 2 PM or 4 PM).  
+- App confirms reschedule and updates delivery status.  
 
 ---
 
@@ -78,24 +75,24 @@ We propose **Tik-Tik: Smart Timer Delivery System** – an interactive, confirma
 ---
 
 ### 📦 4. Furniture Delivery Fallback  
-- If customer not home despite confirmation:  
-  - Item sent to **local hub/warehouse**.  
-  - Customer pays **rescheduling fee** upfront.  
+- If customer is unavailable despite confirmation:  
+  - Item sent to **local hub/warehouse**  
+  - Customer pays **rescheduling fee upfront**  
 
 ---
 
 ### 👷 5. Delivery Partner Support  
-- App shows **customer confirmation status**.  
+- App shows **customer confirmation status**  
 - Features:  
-  - Direct customer call/chat.  
-  - Address validation before leaving hub.  
-  - Priority flag for **“Paid & Confirmed” deliveries**.  
+  - Direct customer call/chat  
+  - Address validation before leaving hub  
+  - Priority flag for **“Paid & Confirmed” deliveries**  
 
 ---
 
-## Sample intrative Demo: 
+## Sample intractive Demo: 
 
-[Tik-Tik_-_Smart_Delivery](https://raguram-n.github.io/Tik-Tik_-_Smart_Delivery/)
+[Tik-Tik - Smart Delivery](https://raguram-n.github.io/Tik-Tik_-_Smart_Delivery/)
 
 ---
 
@@ -150,15 +147,16 @@ We propose **Tik-Tik: Smart Timer Delivery System** – an interactive, confirma
 ---
 
 ## 🏆 Why This Proposal Matters  
-
 - Demonstrates **end-to-end UX thinking**:  
-  - Solves “hostage waiting” problem for customers.  
-  - Data-backed cost savings for Amazon’s operations.  
-  - Improves delivery partner efficiency and reduces stress.  
+  - Solves “hostage waiting” problem for customers  
+  - Data-backed cost savings for Amazon’s operations  
+  - Improves delivery partner efficiency and reduces stress  
 
-- Highlights how **small UX/product enhancements** can **drive millions in operational savings** and elevate overall delivery experience.  
+- Shows how **small UX/product enhancements** can **drive millions in operational savings** and elevate overall delivery experience  
 
 ---
 
-## 🔑 Takeaway
-- **Intimate in seconds, Save in millions.**
+## 🔑 Takeaway  
+- **Talk in seconds, win in millions.**  
+
+---
