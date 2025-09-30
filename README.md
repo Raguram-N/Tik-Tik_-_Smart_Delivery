@@ -159,7 +159,23 @@ We propose **Tik-Tik: Smart Timer Delivery System** – an **interactive, confir
 
 ---
 
+## Conclusion
+
+- Wait at 30th min, Not wait for 30 min
+
+---
+
 ## 🔑 Takeaway  
 - **Talk in seconds, win in millions.**  
 
 ---
+
+## ✍️ Author  
+- **RAGURAM NARAYANASWAMY**  
+
+## 📂 Repo Purpose  
+- **Product Case Study & Growth Proposal for Amazon Last mile Delivery** 
+
+---
+
+
