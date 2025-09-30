@@ -172,7 +172,7 @@ And that’s where **Tik-Tik** was born: a smart, timer-based delivery system de
 
 ## 🎯 Conclusion
 
-- Wait at the delivery time, not for the delivery time.
+- Wait **'at'** the delivery time, not **'for'** the delivery time.
 
 ---
 
