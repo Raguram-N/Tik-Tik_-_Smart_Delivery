@@ -170,14 +170,14 @@ And that’s where **Tik-Tik** was born: a smart, timer-based delivery system de
 
 ---
 
-## Conclusion
+## 🎯 Conclusion
 
-- Wait at 30th min, Not wait for 30 min
+- Wait at the delivery time, not for the delivery time.
 
 ---
 
 ## 🔑 Takeaway  
-- **Talk in seconds, win in millions.**  
+- Talk in seconds, win in millions.
 
 ---
 
