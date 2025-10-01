@@ -3,7 +3,7 @@
 *Enhancing Customer Experience & Reducing Operational Costs in Amazon Last-Mile Logistics*  
 
 ---
-## 🚚 Amazon Last-Mile Delivery Proposal Proposal 
+## 🚚 Amazon Last-Mile Delivery Proposal 
 ### Proposal Overview  
 Last-mile delivery is the **most critical and costly** step in Amazon’s logistics chain.  
 
