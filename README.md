@@ -106,7 +106,7 @@ And that’s where **Tik-Tik** was born: a smart, timer-based delivery system de
 
  - **Prototype -** [Tik-Tik - Smart Delivery ](https://raguram-n.github.io/Tik-Tik_-_Smart_Delivery/) 
 
- - **Demo video** [Link](https://github.com/Raguram-N/Tik-Tik_-_Smart_Delivery/blob/main/Demo%20video.mp4)
+ - **Demo video** [Link](https://github.com/Raguram-N/Tik-Tik_-_Smart_Delivery/blob/main/Demo%20video.mp4) - (Click "view raw" to download the video)
 
 ---
 
