@@ -17,6 +17,17 @@ We propose **Tik-Tik: Smart Timer Delivery System** – an **interactive, confir
 
 ## ✨ The Story – The Spark
 
+<table>
+<tr>
+<td width="40%" align="center" valign="middle">
+
+<img src="generated-image.png" width="95%" alt="Just Click - Story Illustration" style="border-radius:10px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2);" />
+
+</td>
+<td width="60%" valign="top">
+
+**Picture this**
+
 It was a typical morning. A young man had ordered a new piece of furniture, something he had been eagerly waiting for. He had already paid for it, but there was one catch: the delivery window was vague—somewhere between morning and evening.
 
 From the moment he received the delivery confirmation, his day was on hold. Every call, every plan, every task was postponed because he had to be home. He didn’t know exactly when the delivery would arrive, only that he couldn’t leave the house. Hours passed slowly, tension grew, and the excitement of receiving the new furniture turned into frustration.
@@ -24,6 +35,10 @@ From the moment he received the delivery confirmation, his day was on hold. Ever
 This experience highlighted a simple yet powerful truth: **it’s not about waiting for hours—it’s about knowing when to wait.**
 
 And that’s where **Tik-Tik** was born: a smart, timer-based delivery system designed to give customers clarity, control, and confidence—so they could plan their day instead of being hostage to uncertainty.
+
+  </td>
+</tr>
+</table>
 
 
 ## 😫 Key Challenges  
@@ -58,6 +73,15 @@ And that’s where **Tik-Tik** was born: a smart, timer-based delivery system de
 
 ### 🏠 1. Interactive Confirmation & Timer  
 
+<table>
+<tr>
+<td width="40%" align="center" valign="middle">
+
+<img src="generated-image (5).png" width="95%" alt="Just Click - Story Illustration" style="border-radius:10px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2);" />
+
+</td>
+<td width="60%" valign="top">
+
 **Pre-Delivery:**  
 - Customer receives a **prompt to confirm availability**.  
 - Option to **reschedule delivery** if unavailable.  
@@ -70,6 +94,10 @@ And that’s where **Tik-Tik** was born: a smart, timer-based delivery system de
 **Reschedule Flow:**  
 - Customer selects **preferred time slot** (e.g., after 2 PM or 4 PM).  
 - App confirms reschedule and updates delivery status.  
+
+  </td>
+</tr>
+</table>
 
 ---
 
