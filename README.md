@@ -34,8 +34,6 @@ From the moment he received the delivery confirmation, his day was on hold. Ever
 
 This experience highlighted a simple yet powerful truth: **it’s not about waiting for hours—it’s about knowing when to wait.**
 
-And that’s where **Tik-Tik** was born: a smart, timer-based delivery system designed to give customers clarity, control, and confidence—so they could plan their day instead of being hostage to uncertainty.
-
   </td>
 </tr>
 </table>
@@ -57,6 +55,7 @@ And that’s where **Tik-Tik** was born: a smart, timer-based delivery system de
 - 😓 Stress of returning undelivered packages.  
 - 🚦 Route delays and inefficiencies if customers are unavailable.  
 
+> And that’s where **Tik-Tik** was born: a smart, timer-based delivery system designed to give customers clarity, control, and confidence—so they could plan their day instead of being hostage to uncertainty.
 ---
 
 ## 📊 Amazon Last-Mile Delivery Insights (Data-Driven)  
